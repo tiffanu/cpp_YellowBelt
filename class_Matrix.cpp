@@ -16,7 +16,7 @@ public:
 
 	void Reset(int new_rows, int new_cols){
 		if (new_rows < 0 || new_cols < 0) throw out_of_range("Out of range");    // exceptions here are not specified
-																				 // bc this class is just "test"
+									                 // bc this class is just "test"
 		num_rows = new_rows;
 		num_cols = new_cols;
 		if (num_rows == 0 || num_cols == 0){
